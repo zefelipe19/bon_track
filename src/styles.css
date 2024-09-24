@@ -11,3 +11,66 @@ html {
   width: 100%;
   font-family: sans-serif;
 }
+
+li {
+  list-style-type: none;
+}
+
+.border {
+  border: 1px solid #000;
+}
+
+header .title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28pt;
+}
+
+header {
+  padding: 1rem;
+  height: 60dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.nav {
+  padding: 1rem;
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#services {
+  display: flex;
+  width: 100%;
+  
+  color: #fff;
+  min-height: 350px;
+  background-color: #444;
+}
+
+#services ul {
+  z-index: 100
+  ;
+}
+
+#services div {
+  background-image: url('img/utv_03.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+  width: 100%;
+}
+
+footer {
+  padding: 1rem;
+}
